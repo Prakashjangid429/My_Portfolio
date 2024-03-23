@@ -1,119 +1,195 @@
-@media (max-width:1330px){
-    .service{
+@media (max-width:1330px) {
+    .service {
         padding: 0 9%;
     }
-    .service-content *{
+
+    .service-content * {
         margin: 5px 0;
     }
 }
-@media (max-width:1260px){
-    .container{
-        padding:0 6%;
+
+@media (max-width:1260px) {
+    .container {
+        padding: 0 6%;
     }
-    .navbar{
+
+    .navbar {
         padding: 10px 6%;
     }
-    .contact{
+
+    .contact {
         padding: 0 12%;
     }
 }
-@media (max-width:1090px){
-    .container{
-        padding:0 3%;
+
+@media (max-width:1090px) {
+    .container {
+        padding: 0 3%;
     }
-    .navbar{
-        padding: 10px 3%;
+
+    .navbar {
+        padding: 10px 4%;
     }
-    .contact{
+    .home,.about{
+        padding: 0 7%!important;
+    }
+    .contact {
         padding: 0 7%;
     }
+
     .home-content h1 {
         font-size: 2.4rem;
     }
-    h2{
-        font-size: 2.1rem!important;
+
+    h2 {
+        font-size: 2.1rem !important;
     }
-    h3{
-        font-size: 1.6rem!important;
+
+    h3 {
+        font-size: 1.6rem !important;
     }
-    .wrapper{
+
+    .wrapper {
         height: 35px;
     }
-    .wrapper ul li{
+
+    .wrapper ul li {
         font-size: 1.6rem;
     }
+
     @keyframes slide {
-        100%{
+        100% {
             top: -199.6px;
         }
-        
+
     }
-    .service-bx{
+
+    .service-bx {
         margin: 1rem 0;
     }
-    .service-content{
+
+    .service-content {
         padding: 20px;
         width: 32%;
-        
+
     }
-    .home-content{
-        width: 70%;
+    .home-img{
+        width: 30%;
     }
-    
-    
+    .about-img{
+        width: 25%;
+    }
+
+
 }
-@media (max-width:954px){
-    .container{
-        padding:0 1.5%;
+
+@media (max-width:954px) {
+    .container {
+        padding: 0 1.5%;
     }
-    .navbar{
-        padding: 8px 1%;
+    
+
+    .navbar {
+        padding: 8px 3%;
     }
-    .contact{
+
+    .contact {
         padding: 0 7%;
     }
-    h2{
-        font-size: 1.8rem!important;
+
+    h2 {
+        font-size: 1.8rem !important;
     }
-    .service-content *{
+
+    .service-content * {
         margin: 5px 0;
-        
+
     }
-    .service-content,.project-content{
+
+    .service-content,
+    .project-content {
         width: 32.5%;
     }
-    .project-layer h4{
+
+    .project-layer h4 {
         margin: 5px;
         font-size: 1.4rem;
     }
-    p{
-        font-size: 1rem!important;
-        line-height: 1.4rem!important;
+
+    p {
+        font-size: 1rem !important;
+        line-height: 1.4rem !important;
     }
-    .btn a{
-        padding: 8px 10px!important;
-        margin: 0!important;
+
+    .btn a {
+        padding: 8px 10px !important;
+        margin: 0 !important;
     }
-    h3{
-        font-size: 1.3rem!important;
+
+    h3 {
+        font-size: 1.3rem !important;
     }
-    .wrapper{
+
+    .wrapper {
         height: 33px;
     }
-    .wrapper ul li{
+
+    .wrapper ul li {
         font-size: 1.3rem;
     }
+
     @keyframes slide {
-        100%{
+        100% {
             top: -176px;
         }
     }
-    .home-bx{
-        padding-top: 0!important;
+    .about-img{
+        width: 28%!important;
+    }
+
+    .home-bx {
+        padding-top: 0 !important;
     }
 }
-@media (max-width:905px){
-.navbar .hide{
-    display: none;
+
+@media (max-width:905px) {
+    .navbar .hide {
+        display: none;
+    }
+
+    .service-bx {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .service-content {
+        width: 42%;
+        margin: 1.8rem;
+    }
+    .project{
+        padding:0 4% ;
+    }
+    .project-content{
+        width: 43%;
+        margin: 1.3rem;
+    }
+    .home-img{
+        width: 34%;
+    }
 }
+@media (max-width:743px){
+    .home-img{
+        width: 36%;
+    }
+    
+    .service-content{
+        width: 48%;
+        margin: 10px auto;
+    }
+    .project{
+        padding: 0 2%;
+    }
+    .about-img{
+        width: 33%!important;
+    }
 }
