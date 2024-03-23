@@ -193,3 +193,34 @@
         width: 33%!important;
     }
 }
+@media (max-width:620px){
+     .home-bx{
+        flex-direction: column;
+        padding-top: 2rem!important;
+     }
+     .home-content{
+        width: 98%;
+     }
+     .about-img{
+        display: none;
+     }
+     .about-content{
+        width: 98%!important;
+        
+     }
+    .about{
+        min-height: 50vh;
+    } 
+    .service-content{
+        width: 80%;
+    }
+    .service-content *{
+        margin: 10px 0;
+    }
+    .project-bx{
+        justify-content: center;
+    }
+    .project-content{
+        width: 80%;
+    }
+}
