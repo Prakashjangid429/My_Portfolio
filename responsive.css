@@ -223,4 +223,22 @@
     .project-content{
         width: 80%;
     }
+    .contant-bx form{
+        justify-content: center!important;
+    }
+    .contact-input{
+        width: 100%;
+    }
+}
+@media (max-width:443px){
+    .service-content,.project-content{
+        width: 98%!important;
+    }
+    .project{
+        padding: 0;
+    }
+    .contact{
+        padding: 3%;
+    }
+
 }
