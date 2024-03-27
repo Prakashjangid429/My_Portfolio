@@ -125,6 +125,14 @@
         padding: 8px 10px !important;
         margin: 0 !important;
     }
+    .menu-bar-content a{
+        margin: 12px !important;
+        
+    }
+    .menu-bar-content{
+        
+        margin-top: 3rem;
+    }
 
     h3 {
         font-size: 1.3rem !important;
@@ -155,6 +163,9 @@
 @media (max-width:905px) {
     .navbar .hide {
         display: none;
+    }
+    .mobile-menu-bar{
+        display: block;
     }
 
     .service-bx {
@@ -201,6 +212,9 @@
      .home-content{
         width: 98%;
      }
+     .home-img{
+        width: 40%;
+     }
      .about-img{
         display: none;
      }
@@ -233,6 +247,9 @@
 @media (max-width:443px){
     .service-content,.project-content{
         width: 98%!important;
+    }
+    .navbar{
+        padding: 5px;
     }
     .project{
         padding: 0;
