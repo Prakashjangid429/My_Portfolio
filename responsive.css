@@ -261,7 +261,7 @@
 }
 @media (min-height:800px){
     .container{
-        min-height: 500px!important;
+        min-height: 700px!important;
         /* max-height: 100vh; */
     }
 }
