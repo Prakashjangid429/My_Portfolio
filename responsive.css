@@ -90,7 +90,7 @@
     
 
     .navbar {
-        padding: 8px 3%;
+        padding: 10px 3%;
     }
 
     .contact {
@@ -249,7 +249,7 @@
         width: 98%!important;
     }
     .navbar{
-        padding: 5px;
+        padding: 8px;
     }
     .project{
         padding: 0;
@@ -258,4 +258,10 @@
         padding: 3%;
     }
 
+}
+@media (min-height:800px){
+    .container{
+        min-height: 500px!important;
+        /* max-height: 100vh; */
+    }
 }
