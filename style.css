@@ -93,18 +93,26 @@ body {
     list-style: none;
     text-align: left;
     width: 200%;
-    background-color: rgba(231, 231, 231, 0.205);
+    background-color: rgb(33, 23, 23);
     position: absolute;
-    display: none;
+    transition:ease-in-out .4s ;
+    transform-origin: top;
+    transform: scaleY(0);
 }
 
 .drop:hover ul.dropdown {
     display: block;
+    transform: scaleY(1);
 }
 
 .dropdown li {
     display: block;
-    padding: 10px;
+    border: 1px solid wheat;
+    padding: 15px;
+}
+.dropdown li:hover{
+    background-color: white;
+    color: black;
 }
 
 .menu a:hover {
@@ -182,7 +190,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 2rem;
+    padding-top: 1rem;
 
 }
 
